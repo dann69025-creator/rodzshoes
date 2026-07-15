@@ -45,10 +45,21 @@ export default function Catalog() {
             value={brandFilter || ''}
           >
             <option value="">Todas las Marcas</option>
-            <option value="Nike">Nike</option>
-            <option value="Adidas">Adidas</option>
-            <option value="New Balance">New Balance</option>
-            <option value="Jordan">Jordan</option>
+<option value="Nike">Nike</option>
+<option value="Adidas">Adidas</option>
+<option value="Puma">Puma</option>
+<option value="New Balance">New Balance</option>
+<option value="ASICS">ASICS</option>
+<option value="Converse">Converse</option>
+<option value="Vans">Vans</option>
+<option value="Reebok">Reebok</option>
+<option value="Salomon">Salomon</option>
+<option value="HOKA">HOKA</option>
+<option value="On">On</option>
+<option value="Mizuno">Mizuno</option>
+<option value="Saucony">Saucony</option>
+<option value="Veja">Veja</option>
+<option value="Merrell">Merrell</option>
           </select>
           <select 
             className="input-field" 
