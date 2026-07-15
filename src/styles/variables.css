@@ -1,0 +1,15 @@
+:root {
+  --color-black: #0D0D0D;
+  --color-black-sec: #171717;
+  --color-red: #E10600;
+  --color-red-hover: #FF2B2B;
+  --color-gray: #BDBDBD;
+  --color-white: #FFFFFF;
+  
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+
+  --transition: all 0.3s ease;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
