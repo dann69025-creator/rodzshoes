@@ -370,5 +370,905 @@ export const products = [
     gif: "https://solemarket.eu/cdn/shop/files/Air_Jordan_3_Retro_Black_Cat_2025_594b110f-e85c-40af-9513-e9da2bc45c09.webp?v=1743662356&width=800",
     images: ["https://solemarket.eu/cdn/shop/files/Air_Jordan_3_Retro_Black_Cat_2025_01_single_d9ebe06c-ada2-44b7-9537-eb8835011ac2.webp?v=1743662375&width=800", "https://solemarket.eu/cdn/shop/files/Air_Jordan_3_Retro_Black_Cat_2025_32_single_357f4785-4363-493e-af25-c6f2c5614d63.webp?v=1743662375&width=800"],
     sizes: [40, 41, 42, 43, 44]
-  }
+  },
+  {
+  id: 31,
+  name: "Nike Vomero 5",
+  brand: "Nike",
+  price: 235000,
+  description: "Comodidad premium inspirada en el running con estilo urbano.",
+  category: "Tenis",
+  slug: "nike-vomero-5",
+  gif: "https://placehold.co/500x500/png?text=Nike+Vomero+5",
+  images: [
+    "https://placehold.co/800x800/png?text=Nike+Vomero+5+1",
+    "https://placehold.co/800x800/png?text=Nike+Vomero+5+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 32,
+  name: "Nike P-6000",
+  brand: "Nike",
+  price: 219000,
+  description: "Inspirado en los runners de los 2000 con máxima comodidad.",
+  category: "Tenis",
+  slug: "nike-p6000",
+  gif: "https://placehold.co/500x500/png?text=Nike+P6000",
+  images: [
+    "https://placehold.co/800x800/png?text=Nike+P6000+1",
+    "https://placehold.co/800x800/png?text=Nike+P6000+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 33,
+  name: "Nike Air Max Plus TN",
+  brand: "Nike",
+  price: 249000,
+  description: "Diseño agresivo con amortiguación Tuned Air.",
+  category: "Tenis",
+  slug: "nike-air-max-plus-tn",
+  gif: "https://placehold.co/500x500/png?text=Air+Max+Plus",
+  images: [
+    "https://placehold.co/800x800/png?text=Air+Max+Plus+1",
+    "https://placehold.co/800x800/png?text=Air+Max+Plus+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 34,
+  name: "Nike Shox TL",
+  brand: "Nike",
+  price: 259000,
+  description: "Amortiguación icónica y estilo futurista.",
+  category: "Tenis",
+  slug: "nike-shox-tl",
+  gif: "https://placehold.co/500x500/png?text=Nike+Shox+TL",
+  images: [
+    "https://placehold.co/800x800/png?text=Nike+Shox+TL+1",
+    "https://placehold.co/800x800/png?text=Nike+Shox+TL+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 35,
+  name: "Nike Cortez Leather",
+  brand: "Nike",
+  price: 179000,
+  description: "Un clásico atemporal con esencia retro.",
+  category: "Tenis",
+  slug: "nike-cortez-leather",
+  gif: "https://placehold.co/500x500/png?text=Nike+Cortez",
+  images: [
+    "https://placehold.co/800x800/png?text=Nike+Cortez+1",
+    "https://placehold.co/800x800/png?text=Nike+Cortez+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 36,
+  name: "Jordan 5 Retro",
+  brand: "Nike",
+  price: 255000,
+  description: "Una silueta legendaria con detalles premium.",
+  category: "Tenis",
+  slug: "jordan-5-retro",
+  gif: "https://placehold.co/500x500/png?text=Jordan+5",
+  images: [
+    "https://placehold.co/800x800/png?text=Jordan+5+1",
+    "https://placehold.co/800x800/png?text=Jordan+5+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 37,
+  name: "Jordan 11 Retro",
+  brand: "Nike",
+  price: 269000,
+  description: "El Jordan más elegante de todos los tiempos.",
+  category: "Tenis",
+  slug: "jordan-11-retro",
+  gif: "https://placehold.co/500x500/png?text=Jordan+11",
+  images: [
+    "https://placehold.co/800x800/png?text=Jordan+11+1",
+    "https://placehold.co/800x800/png?text=Jordan+11+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 38,
+  name: "Adidas Handball Spezial",
+  brand: "Adidas",
+  price: 195000,
+  description: "Uno de los modelos más populares del momento.",
+  category: "Tenis",
+  slug: "adidas-handball-spezial",
+  gif: "https://placehold.co/500x500/png?text=Handball+Spezial",
+  images: [
+    "https://placehold.co/800x800/png?text=Handball+Spezial+1",
+    "https://placehold.co/800x800/png?text=Handball+Spezial+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 39,
+  name: "Adidas SL 72",
+  brand: "Adidas",
+  price: 185000,
+  description: "El regreso de un clásico del running.",
+  category: "Tenis",
+  slug: "adidas-sl72",
+  gif: "https://placehold.co/500x500/png?text=Adidas+SL72",
+  images: [
+    "https://placehold.co/800x800/png?text=Adidas+SL72+1",
+    "https://placehold.co/800x800/png?text=Adidas+SL72+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 40,
+  name: "Adidas Ozweego",
+  brand: "Adidas",
+  price: 209000,
+  description: "Diseño moderno con amortiguación Adiprene.",
+  category: "Tenis",
+  slug: "adidas-ozweego",
+  gif: "https://placehold.co/500x500/png?text=Ozweego",
+  images: [
+    "https://placehold.co/800x800/png?text=Ozweego+1",
+    "https://placehold.co/800x800/png?text=Ozweego+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 41,
+  name: "Adidas NMD R1",
+  brand: "Adidas",
+  price: 229000,
+  description: "Tecnología Boost para un confort excepcional.",
+  category: "Tenis",
+  slug: "adidas-nmd-r1",
+  gif: "https://placehold.co/500x500/png?text=NMD+R1",
+  images: [
+    "https://placehold.co/800x800/png?text=NMD+R1+1",
+    "https://placehold.co/800x800/png?text=NMD+R1+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 42,
+  name: "New Balance 530",
+  brand: "New Balance",
+  price: 199000,
+  description: "Estilo retro con comodidad para uso diario.",
+  category: "Tenis",
+  slug: "new-balance-530",
+  gif: "https://placehold.co/500x500/png?text=NB530",
+  images: [
+    "https://placehold.co/800x800/png?text=NB530+1",
+    "https://placehold.co/800x800/png?text=NB530+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 43,
+  name: "New Balance 1906R",
+  brand: "New Balance",
+  price: 239000,
+  description: "Tecnología avanzada con estética Y2K.",
+  category: "Tenis",
+  slug: "new-balance-1906r",
+  gif: "https://placehold.co/500x500/png?text=NB1906R",
+  images: [
+    "https://placehold.co/800x800/png?text=NB1906R+1",
+    "https://placehold.co/800x800/png?text=NB1906R+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 44,
+  name: "ASICS GEL-NYC",
+  brand: "ASICS",
+  price: 229000,
+  description: "Combinación perfecta entre rendimiento y moda.",
+  category: "Tenis",
+  slug: "asics-gel-nyc",
+  gif: "https://placehold.co/500x500/png?text=ASICS+GEL+NYC",
+  images: [
+    "https://placehold.co/800x800/png?text=ASICS+GEL+NYC+1",
+    "https://placehold.co/800x800/png?text=ASICS+GEL+NYC+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 45,
+  name: "Puma Speedcat",
+  brand: "Puma",
+  price: 189000,
+  description: "Inspirado en el automovilismo con un diseño elegante.",
+  category: "Tenis",
+  slug: "puma-speedcat",
+  gif: "https://placehold.co/500x500/png?text=Puma+Speedcat",
+  images: [
+    "https://placehold.co/800x800/png?text=Puma+Speedcat+1",
+    "https://placehold.co/800x800/png?text=Puma+Speedcat+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 46,
+  name: "Puma RS-X",
+  brand: "Puma",
+  price: 209000,
+  description: "Diseño robusto con tecnología Running System.",
+  category: "Tenis",
+  slug: "puma-rs-x",
+  gif: "https://placehold.co/500x500/png?text=Puma+RS-X",
+  images: [
+    "https://placehold.co/800x800/png?text=Puma+RS-X+1",
+    "https://placehold.co/800x800/png?text=Puma+RS-X+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 47,
+  name: "Puma Easy Rider",
+  brand: "Puma",
+  price: 182000,
+  description: "Un clásico retro reinventado para el estilo urbano.",
+  category: "Tenis",
+  slug: "puma-easy-rider",
+  gif: "https://placehold.co/500x500/png?text=Puma+Easy+Rider",
+  images: [
+    "https://placehold.co/800x800/png?text=Puma+Easy+Rider+1",
+    "https://placehold.co/800x800/png?text=Puma+Easy+Rider+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 48,
+  name: "Puma Mostro",
+  brand: "Puma",
+  price: 215000,
+  description: "Silueta futurista con diseño icónico y ligero.",
+  category: "Tenis",
+  slug: "puma-mostro",
+  gif: "https://placehold.co/500x500/png?text=Puma+Mostro",
+  images: [
+    "https://placehold.co/800x800/png?text=Puma+Mostro+1",
+    "https://placehold.co/800x800/png?text=Puma+Mostro+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 49,
+  name: "Converse Run Star Motion",
+  brand: "Converse",
+  price: 225000,
+  description: "Diseño moderno con plataforma y gran comodidad.",
+  category: "Tenis",
+  slug: "converse-run-star-motion",
+  gif: "https://placehold.co/500x500/png?text=Run+Star+Motion",
+  images: [
+    "https://placehold.co/800x800/png?text=Run+Star+Motion+1",
+    "https://placehold.co/800x800/png?text=Run+Star+Motion+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 50,
+  name: "Converse Weapon",
+  brand: "Converse",
+  price: 199000,
+  description: "El regreso de un clásico del baloncesto de los 80.",
+  category: "Tenis",
+  slug: "converse-weapon",
+  gif: "https://placehold.co/500x500/png?text=Converse+Weapon",
+  images: [
+    "https://placehold.co/800x800/png?text=Converse+Weapon+1",
+    "https://placehold.co/800x800/png?text=Converse+Weapon+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 51,
+  name: "Vans Old Skool",
+  brand: "Vans",
+  price: 169000,
+  description: "El clásico skate con la icónica banda lateral.",
+  category: "Tenis",
+  slug: "vans-old-skool",
+  gif: "https://placehold.co/500x500/png?text=Vans+Old+Skool",
+  images: [
+    "https://placehold.co/800x800/png?text=Vans+Old+Skool+1",
+    "https://placehold.co/800x800/png?text=Vans+Old+Skool+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 52,
+  name: "Vans SK8-Hi",
+  brand: "Vans",
+  price: 179000,
+  description: "Protección alta para el tobillo con estilo urbano.",
+  category: "Tenis",
+  slug: "vans-sk8-hi",
+  gif: "https://placehold.co/500x500/png?text=Vans+SK8-Hi",
+  images: [
+    "https://placehold.co/800x800/png?text=Vans+SK8-Hi+1",
+    "https://placehold.co/800x800/png?text=Vans+SK8-Hi+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 53,
+  name: "Vans UltraRange EXO",
+  brand: "Vans",
+  price: 205000,
+  description: "Comodidad y rendimiento para uso diario.",
+  category: "Tenis",
+  slug: "vans-ultrarange-exo",
+  gif: "https://placehold.co/500x500/png?text=UltraRange+EXO",
+  images: [
+    "https://placehold.co/800x800/png?text=UltraRange+EXO+1",
+    "https://placehold.co/800x800/png?text=UltraRange+EXO+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 54,
+  name: "Reebok Classic Leather",
+  brand: "Reebok",
+  price: 179000,
+  description: "Minimalismo y comodidad que nunca pasan de moda.",
+  category: "Tenis",
+  slug: "reebok-classic-leather",
+  gif: "https://placehold.co/500x500/png?text=Classic+Leather",
+  images: [
+    "https://placehold.co/800x800/png?text=Classic+Leather+1",
+    "https://placehold.co/800x800/png?text=Classic+Leather+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 55,
+  name: "Reebok BB4000 II",
+  brand: "Reebok",
+  price: 189000,
+  description: "Inspirado en el baloncesto con estética retro.",
+  category: "Tenis",
+  slug: "reebok-bb4000-ii",
+  gif: "https://placehold.co/500x500/png?text=BB4000+II",
+  images: [
+    "https://placehold.co/800x800/png?text=BB4000+II+1",
+    "https://placehold.co/800x800/png?text=BB4000+II+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 56,
+  name: "Salomon XT-6",
+  brand: "Salomon",
+  price: 279000,
+  description: "Rendimiento trail con estilo de tendencia.",
+  category: "Tenis",
+  slug: "salomon-xt-6",
+  gif: "https://placehold.co/500x500/png?text=Salomon+XT6",
+  images: [
+    "https://placehold.co/800x800/png?text=Salomon+XT6+1",
+    "https://placehold.co/800x800/png?text=Salomon+XT6+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 57,
+  name: "Salomon ACS Pro",
+  brand: "Salomon",
+  price: 285000,
+  description: "Tecnología outdoor con diseño contemporáneo.",
+  category: "Tenis",
+  slug: "salomon-acs-pro",
+  gif: "https://placehold.co/500x500/png?text=ACS+Pro",
+  images: [
+    "https://placehold.co/800x800/png?text=ACS+Pro+1",
+    "https://placehold.co/800x800/png?text=ACS+Pro+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 58,
+  name: "HOKA Clifton 9",
+  brand: "HOKA",
+  price: 299000,
+  description: "Amortiguación excepcional para correr o caminar.",
+  category: "Tenis",
+  slug: "hoka-clifton-9",
+  gif: "https://placehold.co/500x500/png?text=Clifton+9",
+  images: [
+    "https://placehold.co/800x800/png?text=Clifton+9+1",
+    "https://placehold.co/800x800/png?text=Clifton+9+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 59,
+  name: "On Cloudmonster",
+  brand: "On",
+  price: 315000,
+  description: "Máxima amortiguación con tecnología CloudTec.",
+  category: "Tenis",
+  slug: "on-cloudmonster",
+  gif: "https://placehold.co/500x500/png?text=Cloudmonster",
+  images: [
+    "https://placehold.co/800x800/png?text=Cloudmonster+1",
+    "https://placehold.co/800x800/png?text=Cloudmonster+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 60,
+  name: "Mizuno Wave Rider 10",
+  brand: "Mizuno",
+  price: 239000,
+  description: "Comodidad japonesa con estilo retro-running.",
+  category: "Tenis",
+  slug: "mizuno-wave-rider-10",
+  gif: "https://placehold.co/500x500/png?text=Wave+Rider+10",
+  images: [
+    "https://placehold.co/800x800/png?text=Wave+Rider+10+1",
+    "https://placehold.co/800x800/png?text=Wave+Rider+10+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 61,
+  name: "Mizuno MXR",
+  brand: "Mizuno",
+  price: 229000,
+  description: "Diseño retro con excelente amortiguación para uso diario.",
+  category: "Tenis",
+  slug: "mizuno-mxr",
+  gif: "https://placehold.co/500x500/png?text=Mizuno+MXR",
+  images: [
+    "https://placehold.co/800x800/png?text=Mizuno+MXR+1",
+    "https://placehold.co/800x800/png?text=Mizuno+MXR+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 62,
+  name: "Saucony Shadow 6000",
+  brand: "Saucony",
+  price: 215000,
+  description: "Un clásico running reinventado para el estilo urbano.",
+  category: "Tenis",
+  slug: "saucony-shadow-6000",
+  gif: "https://placehold.co/500x500/png?text=Shadow+6000",
+  images: [
+    "https://placehold.co/800x800/png?text=Shadow+6000+1",
+    "https://placehold.co/800x800/png?text=Shadow+6000+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 63,
+  name: "Saucony ProGrid Triumph 4",
+  brand: "Saucony",
+  price: 239000,
+  description: "Máximo confort con una silueta retro muy popular.",
+  category: "Tenis",
+  slug: "saucony-progrid-triumph-4",
+  gif: "https://placehold.co/500x500/png?text=ProGrid+Triumph+4",
+  images: [
+    "https://placehold.co/800x800/png?text=ProGrid+Triumph+4+1",
+    "https://placehold.co/800x800/png?text=ProGrid+Triumph+4+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 64,
+  name: "Veja V-10",
+  brand: "Veja",
+  price: 245000,
+  description: "Diseño minimalista con materiales sostenibles.",
+  category: "Tenis",
+  slug: "veja-v10",
+  gif: "https://placehold.co/500x500/png?text=Veja+V10",
+  images: [
+    "https://placehold.co/800x800/png?text=Veja+V10+1",
+    "https://placehold.co/800x800/png?text=Veja+V10+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 65,
+  name: "Veja Campo",
+  brand: "Veja",
+  price: 229000,
+  description: "Elegancia casual con un diseño limpio y moderno.",
+  category: "Tenis",
+  slug: "veja-campo",
+  gif: "https://placehold.co/500x500/png?text=Veja+Campo",
+  images: [
+    "https://placehold.co/800x800/png?text=Veja+Campo+1",
+    "https://placehold.co/800x800/png?text=Veja+Campo+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 66,
+  name: "Nike Air Max DN",
+  brand: "Nike",
+  price: 255000,
+  description: "Tecnología Dynamic Air con diseño futurista.",
+  category: "Tenis",
+  slug: "nike-air-max-dn",
+  gif: "https://placehold.co/500x500/png?text=Air+Max+DN",
+  images: [
+    "https://placehold.co/800x800/png?text=Air+Max+DN+1",
+    "https://placehold.co/800x800/png?text=Air+Max+DN+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 67,
+  name: "Nike Zoom Fly 6",
+  brand: "Nike",
+  price: 285000,
+  description: "Velocidad y amortiguación para entrenamientos intensos.",
+  category: "Tenis",
+  slug: "nike-zoom-fly-6",
+  gif: "https://placehold.co/500x500/png?text=Zoom+Fly+6",
+  images: [
+    "https://placehold.co/800x800/png?text=Zoom+Fly+6+1",
+    "https://placehold.co/800x800/png?text=Zoom+Fly+6+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 68,
+  name: "Nike Pegasus Premium",
+  brand: "Nike",
+  price: 289000,
+  description: "La evolución premium de la familia Pegasus.",
+  category: "Tenis",
+  slug: "nike-pegasus-premium",
+  gif: "https://placehold.co/500x500/png?text=Pegasus+Premium",
+  images: [
+    "https://placehold.co/800x800/png?text=Pegasus+Premium+1",
+    "https://placehold.co/800x800/png?text=Pegasus+Premium+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 69,
+  name: "Jordan 6 Retro",
+  brand: "Nike",
+  price: 259000,
+  description: "Uno de los modelos más emblemáticos de Michael Jordan.",
+  category: "Tenis",
+  slug: "jordan-6-retro",
+  gif: "https://placehold.co/500x500/png?text=Jordan+6",
+  images: [
+    "https://placehold.co/800x800/png?text=Jordan+6+1",
+    "https://placehold.co/800x800/png?text=Jordan+6+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 70,
+  name: "Jordan 12 Retro",
+  brand: "Nike",
+  price: 265000,
+  description: "Diseño premium inspirado en el lujo japonés.",
+  category: "Tenis",
+  slug: "jordan-12-retro",
+  gif: "https://placehold.co/500x500/png?text=Jordan+12",
+  images: [
+    "https://placehold.co/800x800/png?text=Jordan+12+1",
+    "https://placehold.co/800x800/png?text=Jordan+12+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 71,
+  name: "Jordan 13 Retro",
+  brand: "Nike",
+  price: 269000,
+  description: "Inspirado en la agilidad y velocidad de una pantera.",
+  category: "Tenis",
+  slug: "jordan-13-retro",
+  gif: "https://placehold.co/500x500/png?text=Jordan+13",
+  images: [
+    "https://placehold.co/800x800/png?text=Jordan+13+1",
+    "https://placehold.co/800x800/png?text=Jordan+13+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 72,
+  name: "Jordan Spizike Low",
+  brand: "Nike",
+  price: 239000,
+  description: "Combinación de varios modelos clásicos Jordan.",
+  category: "Tenis",
+  slug: "jordan-spizike-low",
+  gif: "https://placehold.co/500x500/png?text=Spizike+Low",
+  images: [
+    "https://placehold.co/800x800/png?text=Spizike+Low+1",
+    "https://placehold.co/800x800/png?text=Spizike+Low+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 73,
+  name: "Adidas Rivalry Low",
+  brand: "Adidas",
+  price: 189000,
+  description: "Estilo retro inspirado en el baloncesto de los 80.",
+  category: "Tenis",
+  slug: "adidas-rivalry-low",
+  gif: "https://placehold.co/500x500/png?text=Rivalry+Low",
+  images: [
+    "https://placehold.co/800x800/png?text=Rivalry+Low+1",
+    "https://placehold.co/800x800/png?text=Rivalry+Low+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 74,
+  name: "Adidas Adizero Evo SL",
+  brand: "Adidas",
+  price: 279000,
+  description: "Ligereza y velocidad para corredores exigentes.",
+  category: "Tenis",
+  slug: "adidas-adizero-evo-sl",
+  gif: "https://placehold.co/500x500/png?text=Adizero+Evo+SL",
+  images: [
+    "https://placehold.co/800x800/png?text=Adizero+Evo+SL+1",
+    "https://placehold.co/800x800/png?text=Adizero+Evo+SL+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 75,
+  name: "New Balance 1000",
+  brand: "New Balance",
+  price: 235000,
+  description: "Silueta retro-running con un look moderno.",
+  category: "Tenis",
+  slug: "new-balance-1000",
+  gif: "https://placehold.co/500x500/png?text=NB1000",
+  images: [
+    "https://placehold.co/800x800/png?text=NB1000+1",
+    "https://placehold.co/800x800/png?text=NB1000+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 76,
+  name: "New Balance 860v2",
+  brand: "New Balance",
+  price: 229000,
+  description: "Comodidad y estabilidad con un diseño retro-running.",
+  category: "Tenis",
+  slug: "new-balance-860v2",
+  gif: "https://placehold.co/500x500/png?text=NB860v2",
+  images: [
+    "https://placehold.co/800x800/png?text=NB860v2+1",
+    "https://placehold.co/800x800/png?text=NB860v2+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 77,
+  name: "ASICS GEL-Quantum 360",
+  brand: "ASICS",
+  price: 245000,
+  description: "Amortiguación de alto nivel con un look deportivo.",
+  category: "Tenis",
+  slug: "asics-gel-quantum-360",
+  gif: "https://placehold.co/500x500/png?text=GEL+Quantum+360",
+  images: [
+    "https://placehold.co/800x800/png?text=GEL+Quantum+360+1",
+    "https://placehold.co/800x800/png?text=GEL+Quantum+360+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 78,
+  name: "ASICS GEL-Nimbus 10.1",
+  brand: "ASICS",
+  price: 249000,
+  description: "Confort premium inspirado en el running clásico.",
+  category: "Tenis",
+  slug: "asics-gel-nimbus-10-1",
+  gif: "https://placehold.co/500x500/png?text=GEL+Nimbus+10.1",
+  images: [
+    "https://placehold.co/800x800/png?text=Nimbus+10.1+1",
+    "https://placehold.co/800x800/png?text=Nimbus+10.1+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 79,
+  name: "ASICS GEL-Kinetic Fluent",
+  brand: "ASICS",
+  price: 255000,
+  description: "Tecnología moderna con una estética futurista.",
+  category: "Tenis",
+  slug: "asics-gel-kinetic-fluent",
+  gif: "https://placehold.co/500x500/png?text=GEL+Kinetic",
+  images: [
+    "https://placehold.co/800x800/png?text=GEL+Kinetic+1",
+    "https://placehold.co/800x800/png?text=GEL+Kinetic+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 80,
+  name: "Puma Inhale",
+  brand: "Puma",
+  price: 209000,
+  description: "Diseño llamativo inspirado en el running de los 2000.",
+  category: "Tenis",
+  slug: "puma-inhale",
+  gif: "https://placehold.co/500x500/png?text=Puma+Inhale",
+  images: [
+    "https://placehold.co/800x800/png?text=Puma+Inhale+1",
+    "https://placehold.co/800x800/png?text=Puma+Inhale+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 81,
+  name: "Puma Palermo Leather",
+  brand: "Puma",
+  price: 179000,
+  description: "Estilo vintage europeo con acabados premium.",
+  category: "Tenis",
+  slug: "puma-palermo-leather",
+  gif: "https://placehold.co/500x500/png?text=Palermo+Leather",
+  images: [
+    "https://placehold.co/800x800/png?text=Palermo+Leather+1",
+    "https://placehold.co/800x800/png?text=Palermo+Leather+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 82,
+  name: "Converse Chuck 70",
+  brand: "Converse",
+  price: 185000,
+  description: "Versión premium del clásico Chuck Taylor.",
+  category: "Tenis",
+  slug: "converse-chuck-70",
+  gif: "https://placehold.co/500x500/png?text=Chuck+70",
+  images: [
+    "https://placehold.co/800x800/png?text=Chuck+70+1",
+    "https://placehold.co/800x800/png?text=Chuck+70+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 83,
+  name: "Vans Knu Skool Navy",
+  brand: "Vans",
+  price: 175000,
+  description: "El regreso del estilo chunky inspirado en los 90.",
+  category: "Tenis",
+  slug: "vans-knu-skool-navy",
+  gif: "https://placehold.co/500x500/png?text=Knu+Skool",
+  images: [
+    "https://placehold.co/800x800/png?text=Knu+Skool+1",
+    "https://placehold.co/800x800/png?text=Knu+Skool+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 84,
+  name: "Reebok Nano X5",
+  brand: "Reebok",
+  price: 235000,
+  description: "Entrenamiento de alto rendimiento con máxima estabilidad.",
+  category: "Tenis",
+  slug: "reebok-nano-x5",
+  gif: "https://placehold.co/500x500/png?text=Nano+X5",
+  images: [
+    "https://placehold.co/800x800/png?text=Nano+X5+1",
+    "https://placehold.co/800x800/png?text=Nano+X5+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 85,
+  name: "Salomon XT-4",
+  brand: "Salomon",
+  price: 275000,
+  description: "Diseñado para trail con un look urbano muy popular.",
+  category: "Tenis",
+  slug: "salomon-xt-4",
+  gif: "https://placehold.co/500x500/png?text=XT4",
+  images: [
+    "https://placehold.co/800x800/png?text=XT4+1",
+    "https://placehold.co/800x800/png?text=XT4+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 86,
+  name: "HOKA Bondi 9",
+  brand: "HOKA",
+  price: 319000,
+  description: "Máxima amortiguación para largas caminatas o running.",
+  category: "Tenis",
+  slug: "hoka-bondi-9",
+  gif: "https://placehold.co/500x500/png?text=Bondi+9",
+  images: [
+    "https://placehold.co/800x800/png?text=Bondi+9+1",
+    "https://placehold.co/800x800/png?text=Bondi+9+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 87,
+  name: "On Cloud 5",
+  brand: "On",
+  price: 289000,
+  description: "Ligero, cómodo y perfecto para el uso diario.",
+  category: "Tenis",
+  slug: "on-cloud-5",
+  gif: "https://placehold.co/500x500/png?text=Cloud+5",
+  images: [
+    "https://placehold.co/800x800/png?text=Cloud+5+1",
+    "https://placehold.co/800x800/png?text=Cloud+5+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 88,
+  name: "Merrell Hydro Moc",
+  brand: "Merrell",
+  price: 169000,
+  description: "Diseño innovador para máxima comodidad y versatilidad.",
+  category: "Tenis",
+  slug: "merrell-hydro-moc",
+  gif: "https://placehold.co/500x500/png?text=Hydro+Moc",
+  images: [
+    "https://placehold.co/800x800/png?text=Hydro+Moc+1",
+    "https://placehold.co/800x800/png?text=Hydro+Moc+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 89,
+  name: "Nike SB Dunk Low",
+  brand: "Nike",
+  price: 239000,
+  description: "El favorito del skate convertido en un ícono streetwear.",
+  category: "Tenis",
+  slug: "nike-sb-dunk-low",
+  gif: "https://placehold.co/500x500/png?text=SB+Dunk+Low",
+  images: [
+    "https://placehold.co/800x800/png?text=SB+Dunk+Low+1",
+    "https://placehold.co/800x800/png?text=SB+Dunk+Low+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+},
+{
+  id: 90,
+  name: "Nike Air Trainer 1",
+  brand: "Nike",
+  price: 219000,
+  description: "Un clásico multifuncional con estilo retro deportivo.",
+  category: "Tenis",
+  slug: "nike-air-trainer-1",
+  gif: "https://placehold.co/500x500/png?text=Air+Trainer+1",
+  images: [
+    "https://placehold.co/800x800/png?text=Air+Trainer+1+1",
+    "https://placehold.co/800x800/png?text=Air+Trainer+1+2"
+  ],
+  sizes: [40, 41, 42, 43, 44]
+}
 ];
