@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { db } from '../firebase/config'; 
+import { db, auth } from '../firebase/config'; // Importamos 'auth' también
 import { collection, getDocs, doc, updateDoc } from 'firebase/firestore';
+import { signOut } from 'firebase/auth'; // Importamos la función de cerrar sesión
+import { useNavigate } from 'react-router-dom'; // Para redirigir al salir
 
 const AdminOrders = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate(); // Inicializamos el navegador de rutas
 
   // 1. Cargar los pedidos al iniciar el componente
   useEffect(() => {
@@ -29,12 +32,10 @@ const AdminOrders = () => {
     setLoading(true);
     try {
       const orderRef = doc(db, "ordenes", orderId);
-      // Actualizamos el documento específico en Firestore
       await updateDoc(orderRef, {
         status: newStatus
       });
       
-      // Actualizamos el estado local para que el cambio se vea al instante
       setOrders(prevOrders => 
         prevOrders.map(order => 
           order.id === orderId ? { ...order, status: newStatus } : order
@@ -50,9 +51,27 @@ const AdminOrders = () => {
     }
   };
 
+  // 3. Función para cerrar sesión
+  const handleLogout = async () => {
+    try {
+      await signOut(auth); // Cierra la sesión en Firebase
+      navigate('/'); // Redirige a la página principal (o a la ruta de login si tienes una)
+    } catch (error) {
+      console.error("Error al cerrar sesión:", error);
+      alert("No se pudo cerrar la sesión. Inténtalo de nuevo.");
+    }
+  };
+
   return (
     <div className="admin-orders-container">
-      <h1>Gestión de Pedidos</h1>
+      {/* Header del panel con título y botón */}
+      <div className="admin-header">
+        <h1>Gestión de Pedidos</h1>
+        <button className="logout-btn" onClick={handleLogout}>
+          Cerrar Sesión
+        </button>
+      </div>
+
       <table className="admin-table">
         <thead>
           <tr>
