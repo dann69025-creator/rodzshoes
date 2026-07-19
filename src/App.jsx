@@ -7,7 +7,8 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import CartDrawer from './components/CartDrawer/CartDrawer';
 import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
-import AdminAuth from './components/AdminAuth'; // El componente que protege la ruta
+import AdminAuth from './components/AdminAuth';
+import OrderStatus from './components/OrderStatus';
 
 const AdminOrders = lazy(() => import('./pages/AdminOrders'));
 const Home = lazy(() => import('./pages/Home'));
@@ -38,6 +39,7 @@ function App() {
                         <AdminOrders />
                       </AdminAuth>
                     } />
+                    <Route path="/rastreo" element={<OrderStatus />} />
                   </Routes>
                 </Suspense>
               </div>

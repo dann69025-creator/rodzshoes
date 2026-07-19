@@ -23,8 +23,7 @@ export default function Header() {
           <Link to="/catalog">Catálogo</Link>
           <Link to="/catalog?brand=Nike">Nike</Link>
           <Link to="/catalog?brand=Adidas">Adidas</Link>
-          
-          {/* Botón condicional de Admin */}
+          <Link to="/rastreo" className="nav-link">Rastrear Pedido</Link>
           {isAdmin && (
             <Link to="/admin-orders" className={styles.adminLink}>
               Acceso Administrativo
