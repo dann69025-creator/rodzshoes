@@ -509,4 +509,34 @@ export const products = [
     ],
     sizes: [40, 41, 42, 43, 44]
   },
+                {
+    id: 34,
+    name: "Puma Suede XL",
+    brand: "Puma",
+    price: 219000,
+    description: "Estas son las Puma Suede XL en color negro y blanco con cordones gruesos.",
+    category: "Tenis",
+    slug: "puma-suede-xl",
+    gif: "https://rodzshoesjuan.github.io/catalog/IMG_4431.jpg",
+    images: [
+      "https://rodzshoesjuan.github.io/catalog/IMG_4429.jpg",
+      "https://rodzshoesjuan.github.io/catalog/IMG_4433.jpg"
+    ],
+    sizes: [40, 41, 42, 43, 44]
+  },
+                {
+    id: 35,
+    name: "Puma Suede XL MotorSport",
+    brand: "Puma",
+    price: 219000,
+    description: "Los tenis Puma Suede XL Motorsport presentan un diseño negro de gamuza con detalles en rojo.",
+    category: "Tenis",
+    slug: "puma-suede-xl-motorsport",
+    gif: "https://rodzshoesjuan.github.io/catalog/IMG_4435.jpg",
+    images: [
+      "https://rodzshoesjuan.github.io/catalog/IMG_4434.jpg",
+      "https://rodzshoesjuan.github.io/catalog/IMG_4436.jpg"
+    ],
+    sizes: [40, 41, 42, 43, 44]
+  },
 ];
