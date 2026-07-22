@@ -85,7 +85,7 @@ ${listaProductos}`;
       
       // 3. NUEVO: Redirección automática a WhatsApp
       // AQUÍ DEBES PONER EL NÚMERO DE TU TIENDA (con el código de país, sin el +, ej: 573001234567)
-      const numeroTienda = "573000000000"; 
+      const numeroTienda = "573228819495"; 
       
       // Armamos el mensaje reemplazando el carácter extraño por un emoji 🙏
       const textoWhatsapp = `Hola RODZSHOES, acabo de hacer el pedido con ID: ${docRef.id}. Por favor confírmame el despacho de mi orden por este medio. ¡Muchas gracias! 🙏`;
