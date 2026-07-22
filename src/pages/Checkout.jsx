@@ -83,7 +83,18 @@ ${listaProductos}`;
       // 2. Enviar a Telegram (usando el teléfono formateado)
       await enviarAlertaTelegram(docRef.id, telefonoFinal);
       
-      // 3. Finalizar
+      // 3. NUEVO: Redirección automática a WhatsApp
+      // AQUÍ DEBES PONER EL NÚMERO DE TU TIENDA (con el código de país, sin el +, ej: 573001234567)
+      const numeroTienda = "573000000000"; 
+      
+      // Armamos el mensaje reemplazando el carácter extraño por un emoji 🙏
+      const textoWhatsapp = `Hola RODZSHOES, acabo de hacer el pedido con ID: ${docRef.id}. Por favor confírmame el despacho de mi orden por este medio. ¡Muchas gracias! 🙏`;
+      const urlWhatsapp = `https://wa.me/${numeroTienda}?text=${encodeURIComponent(textoWhatsapp)}`;
+      
+      // Abrimos WhatsApp en una pestaña nueva
+      window.open(urlWhatsapp, '_blank');
+      
+      // 4. Finalizar
       clearCart();
       navigate('/thanks');
 
@@ -107,7 +118,6 @@ ${listaProductos}`;
             <input required type="text" name="nombre" placeholder="Nombre" className="input-field" onChange={handleChange} />
             <input required type="text" name="apellido" placeholder="Apellido" className="input-field" onChange={handleChange} />
           </div>
-          {/* Se añadió el placeholder para guiar al usuario */}
           <input required type="tel" name="telefono" placeholder="+57 300 000 0000" className="input-field" onChange={handleChange} />
           <input required type="text" name="departamento" placeholder="Departamento" className="input-field" onChange={handleChange} />
           <input required type="text" name="ciudad" placeholder="Ciudad" className="input-field" onChange={handleChange} />
