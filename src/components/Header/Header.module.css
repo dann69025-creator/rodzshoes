@@ -1,3 +1,6 @@
+/* =========================================
+   1. CONTENEDORES PRINCIPALES
+   ========================================= */
 .header {
   background-color: #EFEFEF !important;
   border-bottom: 1px solid #E5E7EB !important;
@@ -6,48 +9,45 @@
   z-index: 100;
   padding: 16px 0;
 }
+
 .headerInner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   font-family: var(--font-secondary);
   font-size: 24px;
   font-weight: 700;
   letter-spacing: -1px;
   color: #111111 !important;
+  text-decoration: none;
 }
+
 .logo span {
   color: var(--color-red);
 }
-.nav {
-  display: none;
-  gap: 32px;
-}
-@media (min-width: 768px) {
-  .nav { display: flex; }
-  .menuBtn { display: none; }
-}
-.nav a {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #6B7280 !important;
-  transition: var(--transition);
-}
-.nav a:hover {
-  color: var(--color-red) !important;
-}
+
+/* =========================================
+   2. BOTONES Y ACCIONES (CARRITO / BUSCAR)
+   ========================================= */
 .actions {
   display: flex;
   gap: 16px;
   align-items: center;
 }
-.cartBtn {
+
+.cartBtn, .iconBtn {
   position: relative;
   color: #111111 !important;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
+
 .badge {
   position: absolute;
   top: -8px;
@@ -63,47 +63,98 @@
   justify-content: center;
   font-weight: bold;
 }
-/* 📱 1. ESTADO POR DEFECTO EN MÓVILES (OCULTO) */
-.nav {
-  display: none; /* Oculto por defecto en celulares */
-  flex-direction: column;
-  position: absolute;
-  top: 100%; /* Se coloca justo debajo del header */
-  left: 0;
+
+/* Estilos para la barra de búsqueda desplegable */
+.searchBarContainer {
   width: 100%;
-  background-color: #ffffff; /* Asegúrate de que coincida con el fondo de tu página */
-  padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para que resalte sobre el resto */
-  z-index: 100;
+  padding: 12px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E5E7EB;
+  display: flex;
+  justify-content: center;
 }
 
-/* Espaciado para los links dentro del menú móvil */
+.searchInput {
+  width: 100%;
+  max-width: 600px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* =========================================
+   3. ENLACES DEL MENÚ (BASE PARA TODOS)
+   ========================================= */
 .nav a {
-  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #6B7280 !important;
+  transition: var(--transition);
   text-decoration: none;
-  color: #333; /* Ajusta al color de tu texto */
-  border-bottom: 1px solid #f0f0f0;
 }
 
-/* 📱 2. CUANDO SE HACE CLIC EN EL BOTÓN (VISIBLE) */
-.nav.navOpen {
-  display: flex; /* Cambia de 'none' a 'flex' para mostrarse */
+.nav a:hover {
+  color: var(--color-red) !important;
 }
 
-/* 💻 3. ESTILOS PARA ESCRITORIO / PANTALLAS GRANDES */
+/* =========================================
+   💻 4. ESTILOS DE ESCRITORIO (PC)
+   ========================================= */
 @media (min-width: 768px) {
   .nav {
-    display: flex; /* Siempre visible en PC */
-    flex-direction: row; /* Links en horizontal */
-    position: static; /* Quita el comportamiento desplegable */
-    box-shadow: none;
-    padding: 0;
-    background-color: transparent;
-    gap: 20px; /* Espacio entre los links en PC */
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  
+  .menuBtn {
+    display: none; /* Oculta las 3 rayas en PC */
+  }
+}
+
+/* =========================================
+   📱 5. ESTILOS DE MÓVIL (CELULAR)
+   ========================================= */
+@media (max-width: 767px) {
+  .nav {
+    display: none; /* Oculto por defecto */
+    flex-direction: column;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: #EFEFEF; /* Mismo color que tu header */
+    padding: 0 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
   }
 
+  .nav.navOpen {
+    display: flex; /* Se muestra al hacer clic */
+  }
+
+  /* Ajustamos los enlaces para que se vean bien en vertical */
   .nav a {
+    padding: 16px 0;
+    border-bottom: 1px solid #E5E7EB;
+    width: 100%;
+    display: block;
+  }
+  
+  /* Quita la línea separadora del último enlace */
+  .nav a:last-child {
     border-bottom: none;
-    padding: 0;
+  }
+
+  /* Asegura que el botón de las 3 rayas se vea bien */
+  .menuBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #111111;
   }
 }
