@@ -16,7 +16,7 @@ export default function Footer() {
           <ul>
             <li><a href="/">Inicio</a></li>
             <li><a href="/catalogo">Catálogo</a></li>
-            <li><a href="/rastrear-pedido">Rastrear Pedido</a></li>
+            <li><a href="/rastreo">Rastrear Pedido</a></li>
           </ul>
         </div>
 

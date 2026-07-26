@@ -35,8 +35,8 @@ export default function Home() {
           {/* 3. TU LOGO PERSONALIZADO */}
           <img src={logo} alt="RodzShoes Logo" style={{ maxWidth: '250px', marginBottom: '20px' }} />
           
-          <h1 style={{ fontSize: '48px', marginBottom: '16px', textTransform: 'uppercase', color: '#FFFFFF', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>Eleva tu Estilo</h1>
-          <p style={{ fontSize: '18px', color: '#E5E7EB', marginBottom: '32px', maxWidth: '600px', margin: '0 auto 32px', textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>
+          <h1 style={{ fontSize: '48px', marginBottom: '16px', textTransform: 'uppercase', color: '#FFFFFF', textShadow: '0 2px 4px rgb(255, 255, 255)' }}>Eleva tu Estilo</h1>
+          <p style={{ fontSize: '18px', color: '#E5E7EB', marginBottom: '32px', maxWidth: '600px', margin: '0 auto 32px', textShadow: '0 1px 2px rgba(252, 252, 252, 1)' }}>
             Descubre las zapatillas más exclusivas de las mejores marcas del mundo. Calidad garantizada.
           </p>
           <Link to="/catalog" className="btn-primary">Explorar Colección</Link>
