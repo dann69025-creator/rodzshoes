@@ -1,15 +1,65 @@
 :root {
-  --color-black: #0D0D0D;
-  --color-black-sec: #171717;
-  --color-red: #E10600;
-  --color-red-hover: #FF2B2B;
-  --color-gray: #BDBDBD;
-  --color-white: #FFFFFF;
+  /* =========================================
+     TEMA CLARO (Por defecto)
+     ========================================= */
+  --color-bg-base: #F8F8F8;
+  --color-bg-surface: #FFFFFF;
+  --color-header-bg: #EFEFEF;
   
-  --font-primary: 'Inter', sans-serif;
-  --font-secondary: 'Poppins', sans-serif;
+  --color-text-primary: #111111;
+  --color-text-secondary: #6B7280;
+  
+  --color-border: #E5E7EB;
+  
+  --color-primary: #E10600;
+  --color-primary-hover: #FF2B2B;
+  
+  --color-error: #DC2626;
+  --color-success: #16A34A;
 
-  --transition: all 0.3s ease;
-  --radius: 8px;
-  --radius-lg: 12px;
+  /* Compatibilidad Legacy */
+  --color-black: var(--color-bg-base);       
+  --color-black-sec: var(--color-bg-surface);
+  --color-white: var(--color-text-primary);  
+  --color-gray: var(--color-text-secondary);
+  --color-red: var(--color-primary);
+  --color-red-hover: var(--color-primary-hover);
+  --color-pure-white: #FFFFFF;
+
+  /* Tipografía y Tokens */
+  --font-primary: 'Inter', system-ui, sans-serif;
+  --font-secondary: 'Poppins', system-ui, sans-serif;
+
+  --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --radius: 4px;
+  --radius-lg: 8px;
+}
+
+[data-theme="dark"] {
+  /* =========================================
+     TEMA OSCURO
+     ========================================= */
+  --color-bg-base: #0D0D0D;
+  --color-bg-surface: #171717;
+  --color-header-bg: #121212;
+  
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #BDBDBD;
+  
+  --color-border: #262626;
+  
+  --color-primary: #E10600;
+  --color-primary-hover: #FF2B2B;
+  
+  --color-error: #DC2626;
+  --color-success: #16A34A;
+
+  /* Compatibilidad Legacy */
+  --color-black: var(--color-bg-base);       
+  --color-black-sec: var(--color-bg-surface);
+  --color-white: var(--color-text-primary);  
+  --color-gray: var(--color-text-secondary);
+  --color-red: var(--color-primary);
+  --color-red-hover: var(--color-primary-hover);
+  --color-pure-white: #FFFFFF;
 }

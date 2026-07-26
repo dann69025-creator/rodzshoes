@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Search, Menu } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
-import { useAuth } from '../../context/AuthContext'; // Importación correcta
+import { useAuth } from '../../context/AuthContext';
 import styles from './Header.module.css';
 
 export default function Header() {
   const { cartCount, setIsDrawerOpen } = useCart();
-  const { isAdmin } = useAuth(); // Usamos el contexto para saber si es admin
+  const { isAdmin } = useAuth();
 
   return (
     <header className={styles.header}>

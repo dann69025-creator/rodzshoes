@@ -91,7 +91,7 @@ export default function Product() {
     <span style={{ fontWeight: '600' }}>Selecciona tu talla (EUR)</span>
     <button 
       onClick={() => setShowSizeGuide(true)} 
-      style={{ color: 'var(--color-gray)', textDecoration: 'underline', border: 'none', background: 'none', cursor: 'pointer' }}
+      style={{ color: 'var(--color-black)', textDecoration: 'underline', border: 'none', background: 'none', cursor: 'pointer' }}
     >
       Guía de tallas
     </button>
@@ -106,7 +106,7 @@ export default function Product() {
           padding: '12px 20px', 
           border: `1px solid ${selectedSize === size ? 'var(--color-red)' : '#333'}`,
           background: selectedSize === size ? 'var(--color-red)' : 'transparent',
-          color: '#fff', 
+          color: '#000000', 
           borderRadius: '4px', 
           transition: 'var(--transition)',
           cursor: 'pointer'

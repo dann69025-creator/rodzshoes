@@ -1,6 +1,6 @@
 .header {
-  background-color: var(--color-black);
-  border-bottom: 1px solid var(--color-black-sec);
+  background-color: #EFEFEF !important;
+  border-bottom: 1px solid #E5E7EB !important;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -16,6 +16,7 @@
   font-size: 24px;
   font-weight: 700;
   letter-spacing: -1px;
+  color: #111111 !important;
 }
 .logo span {
   color: var(--color-red);
@@ -32,11 +33,11 @@
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  color: var(--color-gray);
+  color: #6B7280 !important;
   transition: var(--transition);
 }
 .nav a:hover {
-  color: var(--color-white);
+  color: var(--color-red) !important;
 }
 .actions {
   display: flex;
@@ -45,14 +46,14 @@
 }
 .cartBtn {
   position: relative;
-  color: var(--color-white);
+  color: #111111 !important;
 }
 .badge {
   position: absolute;
   top: -8px;
   right: -8px;
   background: var(--color-red);
-  color: white;
+  color: #FFFFFF !important;
   font-size: 10px;
   width: 18px;
   height: 18px;
