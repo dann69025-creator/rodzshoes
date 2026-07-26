@@ -30,7 +30,7 @@ export default function Header() {
         </Link>
 
         {/* Menú de navegación con clase condicional para móviles */}
-        <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
+<nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Inicio</Link>
           <Link to="/catalog" onClick={() => setIsMenuOpen(false)}>Catálogo</Link>
           <Link to="/catalog?brand=Nike" onClick={() => setIsMenuOpen(false)}>Nike</Link>
