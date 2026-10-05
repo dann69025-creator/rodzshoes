@@ -7,7 +7,7 @@ export const Contact = () => {
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h1 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">Contáctanos</h1>
         <p className="text-slate-500 text-lg">
-          Estamos aquí para ayudarte a encontrar tu fragancia ideal o resolver cualquier duda sobre tu pedido.
+          Estamos aquí para ayudarte a encontrar tu par ideal o resolver cualquier duda sobre tu pedido.
         </p>
       </div>
 
